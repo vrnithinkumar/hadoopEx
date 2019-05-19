@@ -1,0 +1,2 @@
+# hadoopEx
+Hadoop hands on

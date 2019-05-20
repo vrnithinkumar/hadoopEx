@@ -6,3 +6,5 @@ The MapReduce framework sorts the records by key before they reach the reducers.
 - Make the key a composite of the natural key and the natural value.
 - The sort comparator should order by the composite key (i.e., the natural key and natural value).
 - The partitioner and grouping comparator for the composite key should consider only the natural key for partitioning and grouping.
+
+hadoop jar sort.jar SecondarySort /user/hduser/input_weather /user/hduser/output_weather
